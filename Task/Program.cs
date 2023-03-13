@@ -7,7 +7,7 @@ try
 {
     Console.Write("Введите номер недели: ");
     int num = Convert.ToInt32(Console.ReadLine());
-    if (num > 7 && num < 1) Console.WriteLine("Такого дня недели не существует");
+    if (num > 7 || num < 1) Console.WriteLine("Такого дня недели не существует");
     switch (num)
     {
         case 1:
